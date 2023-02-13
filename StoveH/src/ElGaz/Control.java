@@ -3,9 +3,9 @@ package ElGaz;
 public class Control {
 
     public static void main(String[] args) {
-        Main.Stove myStoveEl = new Main.Stove();
+        Stove myStoveEl = new Stove();
         myStoveEl.setElEyesAm(2,true );
-        Main.Stove myStoveG = new Main.Stove();
+        Stove myStoveG = new Stove();
         myStoveEl.setGazEyesAm(4, true);
 
     }
