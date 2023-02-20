@@ -12,16 +12,16 @@ class ForArr{
         arr = a;
     }
     int getSmallest(int[] theSmallest){
-        int temp;
+        int t;
         for (int i = 0; i < theSmallest.length; i++)
         {
             for (int j = i + 1; j < theSmallest.length; j++)
             {
                 if (theSmallest[i] > theSmallest[j])
                 {
-                    temp = theSmallest[i];
+                    t = theSmallest[i];
                     theSmallest[i] = theSmallest[j];
-                    theSmallest[j] = temp;
+                    theSmallest[j] = t;
                 }
             }
         }
